@@ -3,10 +3,10 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 // Define your data
-const firstName = 'John'; // Replace with your first name
-const lastName = 'Doe';   // Replace with your last name
+const firstName = 'kyle'; // Replace with your first name
+const lastName = 'quimada';   // Replace with your last name
 const age = 20;           // Replace with your age
-const schoolEmail = 'johndoe@school.edu'; // Replace with your valid school email
+const schoolEmail = 'kylequimada@school.edu'; // Replace with your valid school email
 
 // Route to return first name in all caps
 app.get('/firstname', (req, res) => {
